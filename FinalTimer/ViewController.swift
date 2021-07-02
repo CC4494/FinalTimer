@@ -21,7 +21,7 @@ class ViewController: UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startStopButton.setTitleColor(UIColor.green, for: .normal)
+        startStopButton.setTitleColor(UIColor.blue, for: .normal)
     }
       
     @IBAction func resetTapped(_ sender: Any)
@@ -35,7 +35,7 @@ class ViewController: UIViewController
             self.timer.invalidate()
             self.TimerLabel.text = self.makeTimeString(hours: 0, mintutes: 0, seconds: 0)
             self.startStopButton.setTitle("START", for: .normal)
-            self.startStopButton.setTitleColor(UIColor.green, for: .normal)
+            self.startStopButton.setTitleColor(UIColor.blue, for: .normal)
         }))
         self.present(alert, animated:true, completion: nil)
     }
@@ -47,7 +47,7 @@ class ViewController: UIViewController
             timerCounting = false
             timer.invalidate()
             startStopButton.setTitle("START", for: .normal)
-            startStopButton.setTitleColor(UIColor.green, for: .normal)
+            startStopButton.setTitleColor(UIColor.blue, for: .normal)
         }
         else
         {

@@ -16,15 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-01 at 8.37.20 PM" translatesAutoresizingMaskIntoConstraints="NO" id="1A0-jF-9J0">
+                                <rect key="frame" x="-70" y="644" width="682" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big pic (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hM1-cd-4cC">
+                                <rect key="frame" x="8" y="265" width="398" height="293"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big pic" translatesAutoresizingMaskIntoConstraints="NO" id="WQc-8a-jjo">
+                                <rect key="frame" x="-93" y="604" width="400" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00 : 00 : 00  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boQ-Vn-H7r">
-                                <rect key="frame" x="117" y="357" width="180.5" height="39"/>
+                                <rect key="frame" x="117" y="392" width="180.5" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzT-To-Ueo">
-                                <rect key="frame" x="60" y="644" width="70" height="48"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big pic" translatesAutoresizingMaskIntoConstraints="NO" id="X2Y-7X-3U6">
+                                <rect key="frame" x="203" y="604" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzT-To-Ueo">
+                                <rect key="frame" x="72" y="644" width="70" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -43,8 +59,8 @@
                                     <action selector="resetTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSU-fc-Hjf"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big pic" translatesAutoresizingMaskIntoConstraints="NO" id="hM1-cd-4cC">
-                                <rect key="frame" x="8" y="230" width="398" height="293"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled (15)" translatesAutoresizingMaskIntoConstraints="NO" id="Wt8-fl-ZhR">
+                                <rect key="frame" x="-175" y="0.0" width="764" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -52,7 +68,6 @@
                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qzT-To-Ueo" secondAttribute="bottom" constant="170" id="0Xi-Sr-iJy"/>
-                            <constraint firstItem="qzT-To-Ueo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="3x4-88-mn6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X81-Iq-JFb" secondAttribute="bottom" constant="170" id="s4p-93-UCi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X81-Iq-JFb" secondAttribute="trailing" constant="50" id="zoS-ZT-hBd"/>
                         </constraints>
@@ -69,7 +84,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2021-07-01 at 8.37.20 PM" width="490" height="121"/>
+        <image name="Untitled (15)" width="1920" height="1080"/>
         <image name="big pic" width="400" height="400"/>
+        <image name="big pic (1)" width="400" height="400"/>
         <systemColor name="tertiarySystemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
